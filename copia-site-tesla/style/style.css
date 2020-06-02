@@ -1,0 +1,12 @@
+/*Importing the background image and making it zoom to fit*/
+body {
+    background-image: url(../assets/contender.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 10%;
+}
+
+nav {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+}
