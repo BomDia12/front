@@ -1,0 +1,21 @@
+h1 {
+    color: darkgreen;
+    background-color: magenta;
+}
+
+p {
+    color: red;
+}
+
+ul li {
+   list-style: none; 
+   color: purple;
+}
+
+.palavraroxa {
+    color: purple;
+}
+
+.paddinglista {
+    padding-bottom: 100px;
+}
