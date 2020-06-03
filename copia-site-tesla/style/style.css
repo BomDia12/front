@@ -6,7 +6,22 @@ body {
     background-position: center 10%;
 }
 
+/*Aplying Font to Navbar*/
 nav {
-    font-family: 'Architects Daughter', cursive;
-    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+/*Setting Navbar Background color*/
+.navbar-light {
+    background-color: rgba(250, 250, 200, .3 );
+}
+
+/*Making the center links centered*/
+/*Doesn't work with the expandable menu due to using absolute*/
+#navbar {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
 }
