@@ -29,8 +29,8 @@ body {
     position: absolute;
     align-items: center;
     left: 50%;
-    transform: translate(-19%);
-    top: 35%;
+    transform: translate(-50%);
+    top: 35vh;
 }
 
 
@@ -42,10 +42,11 @@ h4 {
     transform: translate(-50%);
     
     /*positioning the subtitle horizontaly*/
-    top: 27%;
+    top: 27vh;
 
-    /*Changing the color*/
+    /*Changing the style*/
     color: blanchedalmond;
+    font-size: medium;
 }
 
 /*Pusing the grid down*/
@@ -56,7 +57,14 @@ h4 {
 
 /*Setting the style for the grid*/
 .container {
-    color: blanchedalmond;
+    color:aqua;
     font-size: medium;
+    text-align: center;
+    font-family: Pacifico, cursive;
+    font-style: oblique;
 }
 
+.my-col {
+    border-left: 1px solid aqua;
+    border-right: 1px solid aqua;
+}
