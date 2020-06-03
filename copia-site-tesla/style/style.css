@@ -1,16 +1,14 @@
-/*Importing the background image and making it zoom to fit*/
 body {
+    /*Importing the background image and making it zoom to fit*/
     background-image: url(../assets/contender.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 10%;
+
+    /*Aplying the font to the page*/
+    font-family: 'Dancing Script', cursive;
 }
 
-/*Aplying Font to Navbar*/
-nav {
-    font-family: 'Dancing Script', cursive;
-    font-weight: bold;
-}
 
 /*Setting Navbar Background color*/
 .navbar-light {
@@ -24,4 +22,33 @@ nav {
     text-align: center;
     left: 50%;
     transform: translate(-50%);
+}
+
+/*Centering the title*/
+.Title {
+    position: absolute;
+    align-items: center;
+    left: 50%;
+    transform: translate(-19%);
+    top: 35%;
+}
+
+
+h4 {
+    /*Center the subtitle*/
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    
+    /*positioning the subtitle horizontaly*/
+    top: 27%;
+
+    /*Changing the color*/
+    color: blanchedalmond;
+}
+
+.container {
+    color: blanchedalmond;
+    font-size: medium;
 }
