@@ -48,7 +48,15 @@ h4 {
     color: blanchedalmond;
 }
 
+/*Pusing the grid down*/
+.content{
+    min-height: 85vh;
+}
+
+
+/*Setting the style for the grid*/
 .container {
     color: blanchedalmond;
     font-size: medium;
 }
+
