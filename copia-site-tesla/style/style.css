@@ -64,6 +64,7 @@ h4 {
     font-style: oblique;
 }
 
+/*grid border*/
 .my-col {
     border-left: 1px solid aqua;
     border-right: 1px solid aqua;
